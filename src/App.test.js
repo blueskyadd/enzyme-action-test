@@ -10,7 +10,7 @@ describe("Todo", () => {
     }) 
     it("查询li个数", () => {
       const wrapper = mount(<App />);
-      expect(wrapper.find("li")).toHaveLength(3);
+      expect(wrapper.find("li")).toHaveLength(2);
     });
     it("调用addList", () => {
       const wrapper = mount(<App />);
